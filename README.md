@@ -14,6 +14,12 @@ What is Conda
 * > Over 1,500 packages are available in the Anaconda repository, including the most popular data science, machine learning, and AI frameworks.
 * > Conda also combined with PIP since 150,000 packages available on PyPI. Sometimes a package is needed which is not available as a conda package but is available on PyPI and can be installed with pip
 
+Difference between PIP and Conda
+------
+* > pip is a package manager that facilitates installation, upgrade, and uninstallation of python packages. It also works with virtual python environments.
+* > conda is a package manager for any software (installation, upgrade and uninstallation). It also works with virtual system environments.
+* > Pip is specific for Python packages and conda is language-agnostic, which means we can use conda to manage packages from any language Pip compiles from source and conda installs binaries, removing the burden of compilation
+* > Conda creates language-agnostic environments natively whereas pip relies on virtualenv to manage only Python environments Though it is recommended to always use conda packages, conda also includes pip, so you don’t have to choose between the two. For example, to install a python package that does not have a conda package, but is available through pip, just run conda command and it will fetch package from PyPI
 
 Anaconda (conda CLI) useful commands
 -----
