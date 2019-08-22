@@ -1,5 +1,10 @@
 # Anaconda (conda)
 
+What is Anaconda
+------
+* > Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing and to simplify package management and deployment.
+* > Package versions are managed by the package management system conda
+
 What is Conda
 ------
 * > Conda is a cross platform package and environment manager that install and manages conda packages from the Anaconda repository as well as from the Anaconda Cloud. 
