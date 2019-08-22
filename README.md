@@ -1,5 +1,16 @@
 # Anaconda (conda)
-Anaconda (conda) useful commands
+
+What is Conda
+------
+* > Conda is a cross platform package and environment manager that install and manages conda packages from the Anaconda repository as well as from the Anaconda Cloud. 
+* > Conda packages are binaries. There is never a need to have compilers available to install them. Additionally conda packages are not limited to Python software. They may also contain C or C++ libraries, R packages or any other software.<br/>
+* > conda has the ability to create isolated environments that can contain different versions of Python and/or the packages installed in them. This can be extremely useful when working with data science tools as different tools may contain conflicting requirements which could prevent them all being installed into a single environment<br/>
+* > conda uses a satisfiability (SAT) solver to verify that all requirements of all packages installed in an environment are met. This check can take extra time but helps prevent the creation of broken environments. As long as package metadata about dependencies is correct, conda will predictably produce working environments
+* > Over 1,500 packages are available in the Anaconda repository, including the most popular data science, machine learning, and AI frameworks.
+* > Conda also combined with PIP since 150,000 packages available on PyPI. Sometimes a package is needed which is not available as a conda package but is available on PyPI and can be installed with pip
+
+
+Anaconda (conda CLI) useful commands
 -----
 
 > **Check conda version**
